@@ -1,0 +1,268 @@
+@media screen and (max-width: 920px) {
+  #nav-burger {
+    display: block;
+  }
+  .nav {
+    justify-content: space-between;
+  }
+  .nav .nav_list {
+    display: none;
+  }
+
+  .hero_offer {
+    max-width: 100%;
+  }
+  .card-actions {
+    display: flex;
+  }
+  .dressStyle-categories {
+    flex-wrap: wrap;
+  }
+  .small-categ {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .categories-row-1,
+  .categories-row-2 {
+    flex-wrap: wrap;
+  }
+  .section-newslatter {
+    padding: 32px 24px;
+  }
+  .newslatter {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  .newslatter-title {
+    width: 100%;
+  }
+  .newslatter form {
+    gap: 14px;
+    width: 100%;
+  }
+  .footer-content {
+    gap: 48px;
+  }
+
+  .footer-credits {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .review-cards {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+  .footer-list {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+@media screen and (max-width: 610px) {
+  .container {
+    padding-inline: 16px;
+  }
+  .sizes {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    flex-wrap: nowrap;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  header .nav-container {
+    padding-inline: 0px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .nav {
+    gap: 0px;
+    padding-inline: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .listing-wrapper {
+    gap: 36px;
+    padding-top: 54px;
+  }
+  .btn {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .nav_search {
+    display: none;
+  }
+  .user_actions a:nth-child(1) {
+    display: block;
+  }
+  .section-hero {
+    background-color: #f2f0f1;
+    background-image: none;
+  }
+  .section-hero .container {
+    padding-inline: 0px;
+  }
+  .section-hero .container .hero_offer {
+    padding-inline: 16px;
+  }
+  .hero_offer {
+    padding: 40px 0 40px 0;
+    width: 100%;
+    gap: 20px;
+  }
+  .hero-mobile-image {
+    display: block;
+    width: 100%;
+  }
+  .star-decorations {
+    position: relative;
+  }
+  .hero_decoration-1 {
+    height: 44px;
+    top: 138px;
+    left: 28px;
+  }
+  .hero_decoration-2 {
+    height: 76px;
+    top: 40px;
+    right: 22px;
+  }
+  .sponsors {
+    justify-content: center;
+  }
+  .sponsor-logo {
+    width: 26%;
+  }
+  .hero_offer-ratings {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 14px;
+  }
+  .rating-vLine:nth-of-type(2) {
+    display: none;
+  }
+  .product-card .card-actions .pill {
+    padding: 12px 16px;
+  }
+  .card-list {
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .product-list {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    flex-wrap: nowrap;
+  }
+  .product-card {
+    gap: 12px;
+    min-width: 198px;
+  }
+  .card_title {
+    font-size: 16px;
+  }
+  .card_price {
+    font-size: 20px;
+  }
+  .card_img {
+    height: 200px;
+  }
+  .card_context,
+  .card_rating {
+    gap: 4px;
+  }
+  .card_discount {
+    gap: none;
+    justify-content: space-between;
+  }
+  .category_name {
+    padding-left: 24px;
+    padding-top: 16px;
+  }
+  .dressStyle_category {
+    max-height: 190px;
+    min-width: 100%;
+  }
+  .review-head {
+    justify-content: flex-end;
+  }
+  .footer-head {
+    max-width: 100%;
+  }
+  .footer-social {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .footer-info_main {
+    width: 100%;
+  }
+
+  .footer-payment-list {
+    flex-wrap: wrap;
+  }
+
+  .latest-dropdown {
+    display: none;
+  }
+  .header-right {
+    width: 100%;
+    grid-template-columns: min-content 1fr;
+  }
+  .product-gallery {
+    display: grid;
+    grid-auto-flow: unset;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  .gallery {
+    grid-row: 2;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .gallery-main {
+    grid-row: 1;
+  }
+  .sizes {
+    gap: 8px;
+  }
+  .review-cards {
+    gap: 16px;
+  }
+  .product_qty {
+    padding: 4px 18px;
+  }
+  .product_btn {
+    padding: 13px auto;
+  }
+  .section-product {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+@media screen and (max-width: 380px) {
+  .hero_offer-ratings .rating-vLine:nth-of-type(1) {
+    display: none;
+  }
+
+  .section-newslatter {
+    padding: 0;
+  }
+  .newslatter {
+    padding: 32px 0px;
+  }
+  .newslatter-title,
+  .newslatter-form {
+    padding-inline: 24px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .user_actions a:first-child {
+    display: none;
+  }
+}
