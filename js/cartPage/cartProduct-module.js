@@ -10,7 +10,7 @@ export function createCartProduct(product, props) {
   );
 
   cartProduct.innerHTML = `
-    <a href="product-details.html" class= "card-left d-flex-row">  
+    <a href="/html/product-details.html" class= "card-left d-flex-row">  
     <img
         class="cardImg"
         src="${product.images[0].src}"

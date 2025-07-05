@@ -25,19 +25,19 @@ export function generateNav() {
                                     <img class="rotate-icon" src="../assets/icons/nav_dropDown.svg" alt="dropdown-icon">
                                 </a>
                                 <div class="shop-links d-flex-col">
-                                    <a href="shop.html" class="shop-link">Pants</a>
-                                    <a href="shop.html" class="shop-link">Shoes</a>
-                                    <a href="shop.html" class="shop-link">T-Shirt</a>
-                                    <a href="shop.html" class="shop-link">Jacket</a>
-                                    <a href="shop.html" class="shop-link">Socks</a>
+                                    <a href="/html/shop.html" class="shop-link">Pants</a>
+                                    <a href="/html/shop.html" class="shop-link">Shoes</a>
+                                    <a href="/html/shop.html" class="shop-link">T-Shirt</a>
+                                    <a href="/html/shop.html" class="shop-link">Jacket</a>
+                                    <a href="/html/shop.html" class="shop-link">Socks</a>
                                 </div>
                             </li>
-                            <li class="nav_list-item"><a href="shop.html" class="nav_list-link">On Sale</a></li>
-                            <li class="nav_list-item"><a href="shop.html" class="nav_list-link">NewArrivals</a></li>
-                            <li class="nav_list-item"><a href="shop.html" class="nav_list-link">Brands</a></li>
+                            <li class="nav_list-item"><a href="/html/shop.html" class="nav_list-link">On Sale</a></li>
+                            <li class="nav_list-item"><a href="/html/shop.html" class="nav_list-link">NewArrivals</a></li>
+                            <li class="nav_list-item"><a href="/html/shop.html" class="nav_list-link">Brands</a></li>
                         </ul>
                     </div>
-                    <h3 class="logo-name"><a href="index.html">Shop.Co</a></h3>
+                    <h3 class="logo-name"><a href="/index.html">Shop.Co</a></h3>
                 </div>
                 <ul class="nav_list d-flex-row flex-al-center">
                     <li class="nav_list-item">
@@ -45,16 +45,16 @@ export function generateNav() {
                             <img class="rotate-icon" src="../assets/icons/nav_dropDown.svg" alt="dropdown-icon">
                         </a>
                         <div class="shop-links d-flex-col">
-                            <a href="shop.html" class="shop-link">Pants</a>
-                            <a href="shop.html" class="shop-link">Shoes</a>
-                            <a href="shop.html" class="shop-link">T-Shirt</a>
-                            <a href="shop.html" class="shop-link">Jacket</a>
-                            <a href="shop.html" class="shop-link">Socks</a>
+                            <a href="/html/shop.html" class="shop-link">Pants</a>
+                            <a href="/html/shop.html" class="shop-link">Shoes</a>
+                            <a href="/html/shop.html" class="shop-link">T-Shirt</a>
+                            <a href="/html/shop.html" class="shop-link">Jacket</a>
+                            <a href="/html/shop.html" class="shop-link">Socks</a>
                         </div>
                     </li>
-                    <li class="nav_list-item"><a href="shop.html" class="nav_list-link">On Sale</a></li>
-                    <li class="nav_list-item"><a href="shop.html" class="nav_list-link">NewArrivals</a></li>
-                    <li class="nav_list-item"><a href="shop.html" class="nav_list-link">Brands</a></li>
+                    <li class="nav_list-item"><a href="/html/shop.html" class="nav_list-link">On Sale</a></li>
+                    <li class="nav_list-item"><a href="/html/shop.html" class="nav_list-link">NewArrivals</a></li>
+                    <li class="nav_list-item"><a href="/html/shop.html" class="nav_list-link">Brands</a></li>
                 </ul>
                 <div class="nav_search icon-input d-flex-row flex-al-center">
                     ${
@@ -71,8 +71,8 @@ export function generateNav() {
                 <div class="user_actions d-flex-row flex-al-center">
                     <a href="#"><img class="user_actions-icon mobile-search" src="../assets/icons/nav_search.svg"
                             alt="search-icon"></a>
-                    <a href="cart.html"><img class="user_actions-icon" src="../assets/icons/nav_cart.svg" alt="cart-icon"></a>
-                    <a href="user.html"><img class="user_actions-icon" src="../assets/icons/nav_account.svg"
+                    <a href="/html/cart.html"><img class="user_actions-icon" src="../assets/icons/nav_cart.svg" alt="cart-icon"></a>
+                    <a href="/html/user.html"><img class="user_actions-icon" src="../assets/icons/nav_account.svg"
                             alt="account-icon"></a>
                 </div>
   `;

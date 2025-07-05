@@ -38,7 +38,7 @@ export function createProductCard(product) {
         
       </div>
       <div class="card-actions d-flex-row">
-          <a href="product-details.html" class="view-action pill secondary-btn">View</a>
+          <a href="/html/product-details.html" class="view-action pill secondary-btn">View</a>
           <div class="addToCart-action pill primary-btn">Add To Cart</div>
         </div>
 `;
